@@ -1,0 +1,16 @@
+/node_modules
+/.next/
+/out/
+/build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*.local
+.env
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Internal brief / requirement files (contain sensitive notes — not for the repo)
+InstructionsForWebsite.txt
+Website_Requirements_Document *.docx

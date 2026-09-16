@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blush: #fbeee6;
+  --plum: #7a4a7e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--blush);
+  color: #4a3b50;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-plum px-6 py-3 font-semibold text-white shadow-soft transition hover:brightness-110 active:scale-95;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-plum/70 px-6 py-3 font-semibold text-plum transition hover:bg-plum hover:text-white active:scale-95;
+  }
+  .section {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+  .heading-gradient {
+    @apply bg-gradient-to-r from-lilac via-coral to-peach bg-clip-text text-transparent;
+  }
+}
+
+/* Scroll reveal animations — only hide once JS marks the page ready, so if the
+   script fails to load the content stays fully visible. */
+html.reveal-ready .reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+html.reveal-ready .reveal.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html.reveal-ready .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* Soft custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f6e2d4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9a7d1;
+  border-radius: 999px;
+}
