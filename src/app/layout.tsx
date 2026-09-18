@@ -18,7 +18,7 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://www.mzduocreations.com"),
   title: "MZDUO creations | Furry & Anime Art Portfolio",
   description:
     "MZDUO creations custom furry artwork, PFPs, reference sheets, Discord banners, fursuits and anime artwork. Bringing anthropomorphic characters to life.",
