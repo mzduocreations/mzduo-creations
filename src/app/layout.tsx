@@ -22,10 +22,7 @@ export const metadata: Metadata = {
   title: "MZDUO creations | Furry & Anime Art Portfolio",
   description:
     "MZDUO creations custom furry artwork, PFPs, reference sheets, Discord banners, fursuits and anime artwork. Bringing anthropomorphic characters to life.",
-  icons: {
-    icon: "/assets/logo.jpeg",
-    apple: "/assets/logo.jpeg",
-  },
+  
   openGraph: {
     title: "MZDUO creations",
     description: "Custom furry & anime art portfolio.",
