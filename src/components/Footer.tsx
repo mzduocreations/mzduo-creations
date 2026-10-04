@@ -72,6 +72,18 @@ export default function Footer() {
               </span>
               mzduocreations@gmail.com
             </a>
+                        <div className="flex items-start gap-3 text-blush/85">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19.3 5.3A17 17 0 0 0 15 4l-.2.4a12.6 12.6 0 0 1 3.7 1.2 13.3 13.3 0 0 0-11-0A12.6 12.6 0 0 1 11.2 4.4L11 4a17 17 0 0 0-4.3 1.3C4 9.3 3.3 13.2 3.6 17a17 17 0 0 0 5.2 2.6l.6-1a11 11 0 0 1-1.8-.9l.4-.3a9.5 9.5 0 0 0 8 0l.4.3c-.6.4-1.2.7-1.8.9l.6 1A17 17 0 0 0 20.4 17c.5-4.4-.6-8.3-1.1-11.7ZM9.5 14.8c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm5 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Z" />
+                </svg>
+              </span>
+              <div className="leading-relaxed">
+                <p className="text-xs font-semibold uppercase tracking-wide text-blush/50">Discord</p>
+                <p>ava_786</p>
+                <p>softyfur</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
