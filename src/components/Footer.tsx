@@ -81,6 +81,8 @@ export default function Footer() {
               <div className="leading-relaxed">
                 <p className="text-xs font-semibold uppercase tracking-wide text-blush/50">Discord</p>
                 <p>ava_786</p>
+              </div>
+              </div>
                  <div className="flex items-start gap-3 text-blush/85">
               <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
