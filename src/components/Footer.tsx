@@ -33,7 +33,7 @@ export default function Footer() {
           <h4 className="font-display text-lg font-bold text-peach">Connect with us</h4>
           <div className="mt-4 flex flex-col gap-3 text-sm">
             <a
-              href="https://instagram.com/mzduocreations"
+              href="https://www.instagram.com/mzduocreations.512/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-3 text-blush/85 hover:text-peach"
@@ -45,7 +45,7 @@ export default function Footer() {
                   <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
                 </svg>
               </span>
-              @mzduocreations
+              @mzduocreations.512
             </a>
 
             <a
